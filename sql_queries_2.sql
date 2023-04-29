@@ -48,7 +48,8 @@ SELECT CONCAT(first_name, ' ', last_name, ' - ', LOWER(email))
 FROM customer;
 
 #What's the length of the longest film title?
-
+SELECT MAX(LENGTH(title)) AS longest_title_length 
+FROM film;
 
 
 
